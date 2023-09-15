@@ -36,7 +36,7 @@ export const Secondary: Story = {
   args: {
     label: '¡Call to action!',
     color:'primary',
-    variant:'contained',
+    variant:'outlined',
   },
 }
 export const Text: Story = {
