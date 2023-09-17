@@ -39,14 +39,14 @@ export const Secondary: Story = {
     variant:'outlined',
   },
 }
-export const Text: Story = {
-  args: {
-    label: '¡Call to action!',
-    color:'primary',
-    variant:'text',
-  },
-}
 
+// export const Text: Story = {
+//   args: {
+//     label: '¡Call to action!',
+//     color:'primary',
+//     variant:'text',
+//   },
+// }
 
 // export const Large: Story = {
 //   args: {
