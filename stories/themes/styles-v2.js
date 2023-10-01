@@ -273,7 +273,7 @@ const styles = (theme) => ({
       lineHeight: '34px',
       letterSpacing: 'normal',
       fontWeight: '800',
-      color: theme.palette.text.primary,
+      color: theme.palette.text.primaryLight,
     },
     '&.MuiTypography-h2': {
       fontSize: '25px',
@@ -289,6 +289,18 @@ const styles = (theme) => ({
     },
     '&.MuiTypography-h4': {
       fontSize: '18px',
+      lineHeight: '20px',
+      fontWeight: '600',
+      color: `${theme.palette.text.primaryDark}`,
+    },
+    '&.MuiTypography-h5': {
+      fontSize: '17px',
+      lineHeight: '20px',
+      fontWeight: '600',
+      color: `${theme.palette.text.primaryDark}`,
+    },
+    '&.MuiTypography-h6': {
+      fontSize: '16px',
       lineHeight: '20px',
       fontWeight: '600',
       color: `${theme.palette.text.primaryDark}`,

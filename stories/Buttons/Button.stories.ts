@@ -15,7 +15,7 @@ const meta: Meta<typeof Button> = {
       color: 'primary',
     },
     variant: {
-      control: 'contained',
+      // control: 'contained',
     },
   },
 }
@@ -23,7 +23,6 @@ const meta: Meta<typeof Button> = {
 export default meta
 type Story = StoryObj<typeof Button>
 
-// More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
 export const Primary: Story = {
   args: {
     label: '¡Call to action!',
@@ -40,26 +39,27 @@ export const Secondary: Story = {
   },
 }
 
-// export const Text: Story = {
-//   args: {
-//     label: '¡Call to action!',
-//     color:'primary',
-//     variant:'text',
-//   },
-// }
+export const Text: Story = {
+  args: {
+    label: '¡Call to action!',
+    color:'secondary',
+    variant:'text',
+  },
+}
 
-// export const Large: Story = {
-//   args: {
-//     label: '¡Call to action!',
-//     color:'primary',
-//     variant:'contained',
-//   },
-// }
+export const Disabled: Story = {
+  args: {
+    label: '¡Call to action!',
+    color:'primary',
+    variant:'disabled',
+  },
+}
 
-// export const Small: Story = {
-//   args: {
-//     label: '¡Call to action!',
-//     color:'primary',
-//     variant:'contained',
-//   },
-// }
+export const Small: Story = {
+  args: {
+    label: '¡Call to action!',
+    color:'primary',
+    variant:'contained',
+    size: 'small',
+  },
+}
